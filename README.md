@@ -76,9 +76,9 @@ POST http://localhost:3000/api/Central/
 ### Docker
 
 ```sh
-docker build -t TARNTARN-api .
+docker build -t pimpisa-api .
 ```
 
 ```sh
-docker run -dit --name TARNTARN-api -p 3000:3000 -v "${pwd}:/app" TARNTARN-api
+docker run -dit --name pimpisa-api -p 3000:3000 -v "${pwd}:/app" pimpisa-api
 ```
