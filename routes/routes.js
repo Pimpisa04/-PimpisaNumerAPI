@@ -1,4 +1,4 @@
-var Math = require("../js/Math.js");
+var Math = require("../js/math.js");
 var appRouter = function (app) {
   
   // Health check
