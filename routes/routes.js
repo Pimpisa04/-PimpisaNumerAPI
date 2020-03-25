@@ -1,7 +1,9 @@
 var Math = require("../js/Math.js");
 var appRouter = function (app) {
+  
+  // Health check
   app.get('/', function (req, res) {
-    res.send('<h1>FumerAPI is now.</h1>')
+    res.send('<h1>Apis are ready</h1>')
   });
 
   // Bisection-Method
