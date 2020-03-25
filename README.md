@@ -1,6 +1,8 @@
 ## ROUTES
 ### POST request with json body
 
+
+
 POST http://localhost:3000/api/Bisection-Method/ 
 ```JSON
 {
