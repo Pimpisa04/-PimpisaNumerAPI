@@ -80,5 +80,5 @@ docker build -t pimpisa-api .
 ```
 
 ```sh
-docker run -dit --name pimpisa-api -p 3000:3000 -v "${pwd}:/app" pimpisa-api
+docker run -dit --name pimpisa-api -p 3001:3000 -v "${pwd}:/app" pimpisa-api
 ```
